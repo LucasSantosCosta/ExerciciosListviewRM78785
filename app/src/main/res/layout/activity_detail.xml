@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.fiap.exercicios.listview.RM78785.DetailActivity">
+
+    <ImageView
+        android:src="@drawable/atum"
+        android:id="@+id/imgPizzaBig"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginRight="0dp"
+        android:text="Igredientes:"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="250dp"
+        android:id="@+id/igredientes"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:layout_marginRight="0dp"
+        android:text="Igredientes Alergênicos:"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/igredientesAlergenicos"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="0dp"
+        android:text="Pontuação:"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:textSize="20dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="355dp"
+        android:id="@+id/pontuacao"
+        android:stepSize="5"/>
+    
+</RelativeLayout>
